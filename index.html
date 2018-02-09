@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en" >
+
+<head>
+  <meta charset="UTF-8">
+  <title>Wikipedia Search</title>
+  <link rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/animate.css@3.5.2/animate.min.css">
+  <!-- or -->
+  <link rel="stylesheet"
+  href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+
+<link href="https://fonts.googleapis.com/css?family=Roboto:100,400" rel="stylesheet">
+  
+  <link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-alpha.3/css/materialize.css'>
+
+      <link rel="stylesheet" href="css/style.css">
+
+  
+</head>
+
+<body>
+
+  <div class="title center-align">
+  <h1>Wikipedia Search</h1>
+</div>
+
+<div class="container container-search z-depth-3">
+  
+  <div class="row">
+    <div class="col s12 m12 l12">
+    <input id="search-input" type="text" class="form-control" placeholder="Search">
+    </div>
+  
+    <div class="col s6 m6 l6 center-align">
+      <button id="search" type="button" class="btn waves-effect waves-orange">search</button>
+    </div>
+    
+    <div class="col s6 m6 l6 center-align">
+      <button id="random" type="button" class="btn waves-effect waves-orange">random</button>
+    </div>
+  </div>
+</div>
+  <br>
+<div class="container z-depth-3 container-results" id="container-results">
+  <div class="row">
+    <div class="col s12 m12 l12">
+      <div class="resultList"></div>
+    </div>
+  </div>
+</div>
+  <script src='https://code.jquery.com/jquery-2.2.4.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js'></script>
+
+  
+
+    <script  src="js/index.js"></script>
+
+
+
+
+</body>
+
+</html>
